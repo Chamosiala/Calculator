@@ -41,7 +41,6 @@ namespace Calculator2
             }
         }
         
-        //Stack<long> history = new Stack<long>();
         decimal currentNum = 0;
         static bool addition = false,  subtraction = false, equaled = false, multiplication = false, division = false;
         static bool previouslyOperated = false;
@@ -49,8 +48,6 @@ namespace Calculator2
         public Form1()
         {
             InitializeComponent();
-            
-            // calculatorScreen.Text = currentNum.ToString();
         }
         
 
@@ -74,8 +71,6 @@ namespace Calculator2
             }
 
             calculatorScreen.Text += "1";
-            //currentNum *= 10;
-            //currentNum += 1;
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -86,8 +81,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "2";
-            //currentNum *= 10;
-            //currentNum += 2;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -99,8 +92,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "3";
-            //currentNum *= 10;
-            //currentNum += 3;
         }
 
 
@@ -113,8 +104,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "4";
-            //currentNum *= 10;
-            //currentNum += 4;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -126,8 +115,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "5";
-            //currentNum *= 10;
-            //currentNum += 5;
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -139,8 +126,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "6";
-            //currentNum *= 10;
-            //currentNum += 6;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -152,8 +137,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "7";
-            //currentNum *= 10;
-            //currentNum += 7;
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -165,8 +148,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "8";
-            //currentNum *= 10;
-            //currentNum += 8;
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -178,8 +159,6 @@ namespace Calculator2
                 equaled = false;
             }
             calculatorScreen.Text += "9";
-            //currentNum *= 10;
-            //currentNum += 9;
         }
 
         private void button0_Click(object sender, EventArgs e)
